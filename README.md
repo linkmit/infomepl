@@ -11,15 +11,15 @@ This folder contains all raw experimental data extracted from PsychoPy.
 - These files are read and combined by scripts in the `all_data_processing_statics/` folder.
 
 ## Files
-### all_data_processing_statics.R
+### `all_data_processing_statics.R`
 This R file contains the following:
 - Data cleaning and manipulation  
 - Statistical analysis  
 - Visualization of results  
 
-### model_results.csv 
+### `model_results.csv`
 This CSV file contains the output of the mixed linear-effects model created in all_data_processing_statics.R
 
-### questionnaire_data.csv
+### `questionnaire_data.csv`
 This CSV files contains all written responses to the open-ended question asked at end of the experiment.
 
