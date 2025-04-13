@@ -8,7 +8,7 @@ A Visual Search Study of Threat Detection and Face Perception" by Linka Mitome, 
 ### `all_data/`
 This folder contains all raw experimental data extracted from PsychoPy.  
 - Each `.csv` file corresponds to a single participant's responses.  
-- These files are read and combined by scripts in the `all_data_processing_statics/` folder.
+- These files are read and combined by scripts in the `all_data_processing_statics/` file.
 
 ## Files
 ### `all_data_processing_statics.R`
