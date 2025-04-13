@@ -334,8 +334,11 @@ ggplot(newdata, aes(x = factor(outline), y = pred_RT, group = scrambled, color =
     title = "Interaction: Scrambled × Outline\n(Threatening Target in Neutral Background)",
     x = "Outline",
     y = "Predicted RT",
-    color = "Scrambled"
+    color = "Scrambling"
   ) +
+  scale_x_discrete(labels = c("0" = "No Outline", "1" = "Outline")) +
+  scale_color_discrete(labels = c("0" = "Original (Non-scrambled)", "1" = "Scrambled")) +
+  theme_minimal(base_size = 14)
   theme_minimal(base_size = 14)
 
 
